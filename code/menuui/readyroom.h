@@ -25,4 +25,8 @@ void campaign_room_init();
 void campaign_room_close();
 void campaign_room_do_frame(float frametime);
 
+bool campaign_build_campaign_list();
+void campaign_select_campaign(const SCP_string& campaign_file);
+void campaign_reset(const SCP_string& campaign_file);
+
 #endif
